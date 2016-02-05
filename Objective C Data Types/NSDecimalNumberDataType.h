@@ -10,4 +10,5 @@
 
 @interface NSDecimalNumberDataType : NSObject
 
+-(void) NSDecimalNumber;
 @end

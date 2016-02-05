@@ -7,15 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A7155C1E1C6155C800800A40 /* NSDictionaryDataType.m in Sources */ = {isa = PBXBuildFile; fileRef = A7155C1D1C6155C800800A40 /* NSDictionaryDataType.m */; };
+		A71710311C62440600AEC659 /* NSArrayDataType.m in Sources */ = {isa = PBXBuildFile; fileRef = A71710301C62440600AEC659 /* NSArrayDataType.m */; };
 		A78FE7E91C5FD7A700F6B392 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A78FE7E81C5FD7A700F6B392 /* main.m */; };
 		A78FE7EC1C5FD7A700F6B392 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A78FE7EB1C5FD7A700F6B392 /* AppDelegate.m */; };
 		A78FE7EF1C5FD7A700F6B392 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A78FE7EE1C5FD7A700F6B392 /* ViewController.m */; };
 		A78FE7F21C5FD7A700F6B392 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A78FE7F01C5FD7A700F6B392 /* Main.storyboard */; };
 		A78FE7F41C5FD7A700F6B392 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A78FE7F31C5FD7A700F6B392 /* Assets.xcassets */; };
 		A78FE7F71C5FD7A700F6B392 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A78FE7F51C5FD7A700F6B392 /* LaunchScreen.storyboard */; };
+		A78FE8001C5FE21100F6B392 /* Primitives.m in Sources */ = {isa = PBXBuildFile; fileRef = A78FE7FF1C5FE21100F6B392 /* Primitives.m */; };
+		A78FE8031C5FE24900F6B392 /* NSNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = A78FE8021C5FE24900F6B392 /* NSNumber.m */; };
+		A78FE8061C60675800F6B392 /* NSDecimalNumberDataType.m in Sources */ = {isa = PBXBuildFile; fileRef = A78FE8051C60675800F6B392 /* NSDecimalNumberDataType.m */; };
+		A78FE8091C606ECC00F6B392 /* NSStringDataType.m in Sources */ = {isa = PBXBuildFile; fileRef = A78FE8081C606ECC00F6B392 /* NSStringDataType.m */; };
+		A7C778CD1C64608400909647 /* NSSetDataType.m in Sources */ = {isa = PBXBuildFile; fileRef = A7C778CC1C64608400909647 /* NSSetDataType.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A7155C1C1C6155C800800A40 /* NSDictionaryDataType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDictionaryDataType.h; sourceTree = "<group>"; };
+		A7155C1D1C6155C800800A40 /* NSDictionaryDataType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDictionaryDataType.m; sourceTree = "<group>"; };
+		A717102F1C62440600AEC659 /* NSArrayDataType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSArrayDataType.h; sourceTree = "<group>"; };
+		A71710301C62440600AEC659 /* NSArrayDataType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSArrayDataType.m; sourceTree = "<group>"; };
 		A78FE7E41C5FD7A700F6B392 /* Objective C Data Types.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Objective C Data Types.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A78FE7E81C5FD7A700F6B392 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A78FE7EA1C5FD7A700F6B392 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +37,16 @@
 		A78FE7F31C5FD7A700F6B392 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A78FE7F61C5FD7A700F6B392 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A78FE7F81C5FD7A700F6B392 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A78FE7FE1C5FE21100F6B392 /* Primitives.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Primitives.h; sourceTree = "<group>"; };
+		A78FE7FF1C5FE21100F6B392 /* Primitives.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Primitives.m; sourceTree = "<group>"; };
+		A78FE8011C5FE24900F6B392 /* NSNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSNumber.h; sourceTree = "<group>"; };
+		A78FE8021C5FE24900F6B392 /* NSNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSNumber.m; sourceTree = "<group>"; };
+		A78FE8041C60675800F6B392 /* NSDecimalNumberDataType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDecimalNumberDataType.h; sourceTree = "<group>"; };
+		A78FE8051C60675800F6B392 /* NSDecimalNumberDataType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDecimalNumberDataType.m; sourceTree = "<group>"; };
+		A78FE8071C606ECC00F6B392 /* NSStringDataType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSStringDataType.h; sourceTree = "<group>"; };
+		A78FE8081C606ECC00F6B392 /* NSStringDataType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringDataType.m; sourceTree = "<group>"; };
+		A7C778CB1C64608400909647 /* NSSetDataType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSSetDataType.h; sourceTree = "<group>"; };
+		A7C778CC1C64608400909647 /* NSSetDataType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSSetDataType.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +88,20 @@
 				A78FE7F51C5FD7A700F6B392 /* LaunchScreen.storyboard */,
 				A78FE7F81C5FD7A700F6B392 /* Info.plist */,
 				A78FE7E71C5FD7A700F6B392 /* Supporting Files */,
+				A78FE7FE1C5FE21100F6B392 /* Primitives.h */,
+				A78FE7FF1C5FE21100F6B392 /* Primitives.m */,
+				A78FE8011C5FE24900F6B392 /* NSNumber.h */,
+				A78FE8021C5FE24900F6B392 /* NSNumber.m */,
+				A78FE8041C60675800F6B392 /* NSDecimalNumberDataType.h */,
+				A78FE8051C60675800F6B392 /* NSDecimalNumberDataType.m */,
+				A78FE8071C606ECC00F6B392 /* NSStringDataType.h */,
+				A78FE8081C606ECC00F6B392 /* NSStringDataType.m */,
+				A7155C1C1C6155C800800A40 /* NSDictionaryDataType.h */,
+				A7155C1D1C6155C800800A40 /* NSDictionaryDataType.m */,
+				A717102F1C62440600AEC659 /* NSArrayDataType.h */,
+				A71710301C62440600AEC659 /* NSArrayDataType.m */,
+				A7C778CB1C64608400909647 /* NSSetDataType.h */,
+				A7C778CC1C64608400909647 /* NSSetDataType.m */,
 			);
 			path = "Objective C Data Types";
 			sourceTree = "<group>";
@@ -150,9 +185,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A71710311C62440600AEC659 /* NSArrayDataType.m in Sources */,
+				A7C778CD1C64608400909647 /* NSSetDataType.m in Sources */,
+				A78FE8031C5FE24900F6B392 /* NSNumber.m in Sources */,
 				A78FE7EF1C5FD7A700F6B392 /* ViewController.m in Sources */,
 				A78FE7EC1C5FD7A700F6B392 /* AppDelegate.m in Sources */,
+				A78FE8091C606ECC00F6B392 /* NSStringDataType.m in Sources */,
+				A7155C1E1C6155C800800A40 /* NSDictionaryDataType.m in Sources */,
+				A78FE8061C60675800F6B392 /* NSDecimalNumberDataType.m in Sources */,
 				A78FE7E91C5FD7A700F6B392 /* main.m in Sources */,
+				A78FE8001C5FE21100F6B392 /* Primitives.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +343,7 @@
 				A78FE7FD1C5FD7A700F6B392 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

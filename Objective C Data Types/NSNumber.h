@@ -8,6 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSNumber : NSObject
+@interface NSNumberReference : NSObject
 
+-(void) initNSNumber;
+-(void) numericLiterals;
+-(void) immutability;
+-(void) comparingNumbers;
 @end

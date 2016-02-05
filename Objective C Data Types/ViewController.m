@@ -7,6 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "Primitives.h"
+#import "NSNumber.h"
+#import "NSStringDataType.h"
+#import "NSDictionaryDataType.h"
+#import "NSArrayDataType.h"
 
 @interface ViewController ()
 
@@ -17,11 +22,19 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    NSArrayDataType *newInstance = [[NSArrayDataType alloc] init];
+    
+    //[newInstance initNSArrayUsage];
+    [newInstance initNSMutableArrayUsage];
+    
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
 
 @end

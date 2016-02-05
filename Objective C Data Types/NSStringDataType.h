@@ -10,4 +10,6 @@
 
 @interface NSStringDataType : NSObject
 
+-(void) initStringUsage;
+-(void) NSMutableStringUsage;
 @end
